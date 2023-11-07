@@ -1,0 +1,302 @@
+#logo{
+    max-height: 150px;
+    max-width: 150px;
+}
+body{
+    margin: 0px;
+    background-image: url(https://storage.cloud.google.com/tbp_bucket1/HTML/IMAGES/images/hockey-ice-background.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#tbPoolsHead{
+    background: rgb(31,31,31);
+    background: linear-gradient(90deg, hsl(0, 0%, 12%) 0%, rgba(27,27,32,1) 50%, rgba(17,60,69,1) 100%);
+    text-align: left;
+    padding: 5px;
+}    
+
+#logo{
+    width: 100px;
+    transform: translateY(0px);
+    transform: translateX(10px);
+}
+main{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.navbar ul{
+    list-style-type: none;
+    background: rgb(31,31,31);
+    background: linear-gradient(90deg, rgba(31,31,31,1) 0%, rgba(27,27,32,1) 50%, rgba(17,60,69,1) 100%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    font-family: 'Genos', sans-serif; 
+}
+.navbar a{
+    color: hsl(240, 6%, 79%);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-family: 'Genos', sans-serif; 
+}
+.navbar a:hover{
+    background-color: hsl(190, 60%, 25%);
+}
+.navbar li{
+    float: left;
+    font-family: 'Genos', sans-serif; 
+}
+
+/* ENTRY FORM */
+
+#t_name_box {
+    display: flex;
+    flex-direction: row; /* Set the default layout to vertical */
+    align-items: center; /* Center the form elements horizontally */
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.team_info{
+    text-align: left;
+    margin-left: 5px;
+    padding: 2px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Genos', sans-serif;    
+}
+#team_name{
+    border-color: hsl(0, 0%, 0%);
+    border-radius: 5px;
+    background-color: black;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Genos', sans-serif;
+    text-align: center;
+    color: #00ff00;
+    box-shadow: -3px -3px 5px #585858;
+    min-width: 300px;
+}
+#first_name{
+    border-color: #000000;
+    border-radius: 5px;
+    background-color: black;
+    color: #00ff00;
+    padding: 5px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Genos', sans-serif;
+    text-align: center;
+    box-shadow: -3px -3px 5px #585858;
+    min-width: 300px;
+}
+#last_name{
+    border-color: #000000;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #00ff00;
+    padding: 5px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Genos', sans-serif;
+    text-align: center;
+    box-shadow: -3px -3px 5px #585858;
+    min-width: 300px;
+}
+#email{
+    border-color: #000000;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #00ff00;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Genos', sans-serif;
+    text-align: center;
+    box-shadow: -3px -3px 5px #585858;
+    min-width: 300px;
+}
+
+#for{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Genos', sans-serif;
+    padding: 25px;
+}
+.pair {
+    display: flex;
+    align-items: center;
+    margin-right: 30px; /* Adjust the spacing between pairs as needed */
+}
+#det{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Genos', sans-serif;
+    padding: 25px;
+}
+.picks{
+    background-color: black;
+    color: hsl(120, 90%, 46%);
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    position: top;
+    min-width: 300px;
+    font-family: 'Genos', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: -3px -3px 5px #585858;
+}
+.div-names{
+    font-size: 30px;
+    font-family: 'Genos', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    border: 0.5px solid #000000;
+    border-radius: 5px;
+    margin: 8px;
+    background-color: #000000;
+    color: rgb(29, 48, 224);
+    box-shadow: -3px -3px 5px #585858;
+}
+.endButtons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Genos', sans-serif;
+}
+.buttons{
+    font-family: 'Genos', sans-serif;
+    color: #00ff00;
+    background-color: #000000;
+    box-shadow: -3px -3px 5px #585858;
+    min-width: 300px;
+    font-size: 30px;
+    margin: 10px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    #t_name_box {
+        flex-direction: column; /* Change layout to vertical for smaller screens */
+    }
+    
+    .team_info,
+    #team_name,
+    #first_name,
+    #last_name,
+    #email {
+        width: 100%; /* Make the form elements take up 100% width of the container */
+        margin-bottom: 10px; /* Add some spacing between form elements */
+    }
+}
+.star{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.custom-radio{
+    display: none;
+}
+
+.custom-radio + label i::before{
+    content: '\01FACE'; /* Unicode for the filled star icon f0e7*/
+    color: transparent; /* Change the color of the star when radio button is checked */
+    background: #585858;
+    -webkit-background-clip: text;
+    cursor: pointer;
+}
+
+.custom-radio:checked + label i::before {
+        color: #585858; /* Make the text transparent */
+}
+/*Trial run on popup*/
+.popup{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.popup-content{
+    background: #fff;
+    width: 80%;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}  
+.close{
+    float: right;
+    cursor: pointer;
+}  
+.teamtable{
+    width: 100%;
+    border-radius: 5px;
+    font-family: 'Genos', sans-serif;
+    text-transform: uppercase;
+    box-shadow: -3px -3px -3px #585858;
+}
+.standtablehead{
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    background-color: #585858;
+    color: #fff;
+    font-family: 'Genos', sans-serif;    
+}
+.tablehead{
+    text-align: center;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    background-color: #585858;
+    color: #fff;
+    font-family: 'Genos', sans-serif;    
+}
+.tablerows_even{
+    border: none;
+    text-align: center;
+    padding: 5px;
+    background-color: #c2beb4;    
+}
+.tablerows_odd{
+    border: none;
+    text-align: center;
+    padding: 5px;
+    background-color: #ceeaed; 
+    border: 0px;   
+}
+.popteams{
+    cursor: pointer;
+    border-bottom: 2mm ridge #3198f7;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: -2px -2px 4px #00ff00;
+    font-size: 1.2em;
+}
+.popteams:hover{
+    background-color: #c24c4c;
+    color: #fff;
+    text-shadow: none;
+}
+  
+
+

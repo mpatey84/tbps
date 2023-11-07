@@ -4,7 +4,7 @@
 }
 body{
     margin: 0px;
-    background-image: url(https://storage.cloud.google.com/tbp_bucket1/HTML/IMAGES/images/hockey-ice-background.webp);
+    background-image: url(hockey-ice-background.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
